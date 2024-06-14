@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('profiles', function (Blueprint $table) {
             $table->id();
             $table->string('Фио');
-            $table->string('Др');
+            $table->string('Дата Рождения');
             $table->string('Почта');
             $table->string('Ава');
             $table->timestamps();

@@ -10,9 +10,10 @@ class Profiles extends Model
     use HasFactory;
 
     protected $fillable = [
+        'ID',
         'Фио',
-        'Др',
         'Почта',
-        'Ава',
+        'Дата Рождения',
+        'пол',
     ];
 }
